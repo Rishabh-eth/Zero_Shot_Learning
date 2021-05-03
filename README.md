@@ -1,8 +1,8 @@
-# DL_Project
-Zero-Shot Learning project for Deep Learning course
+# Improved Zero-Shot Learning for Image Classification
 
+## Refer to Readme.txt for all details
 
-## Converting the APY dataset to ZSL format
+### Converting the APY dataset to ZSL format
 
 Run the scripts to download necessary data.
 ```
@@ -14,4 +14,6 @@ Then, run the script to convert the Yahoo dataset to standard format
 ```
 python yahoo_to_zsl.py
 ```
+
+
 

@@ -1,6 +1,6 @@
 # Improved Zero-Shot Learning for Image Classification
 
-## Refer to Readme.txt for all details
+## Refer to ReadMe.txt for all details
 
 ### Converting the APY dataset to ZSL format
 

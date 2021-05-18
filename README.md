@@ -1,20 +1,3 @@
-# Improved Zero-Shot Learning for Image Classification
-
-## Refer to ReadMe.txt for all details
-
-### Converting the APY dataset to ZSL format
-
-Run the scripts to download necessary data.
-```
-bash download_apy.sh
-bash download_glove.sh
-python download_irevnet_pretrained.py
-```
-Then, run the script to convert the Yahoo dataset to standard format
-```
-python yahoo_to_zsl.py
-
-```
 
 Data and code for "Ensuring Surjectivity in Zero-Shot Learning" - Deep Learning project from Rishabh Singh, Yannick Strümpler, Batuhan Yardim, Nicolas Zobernig
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -114,6 +97,19 @@ zsldataset.py
  	ZSLDataset object containing the data read in from the data folders
 
 
+### Converting the APY dataset to ZSL format
+
+Run the scripts to download necessary data.
+```
+bash download_apy.sh
+bash download_glove.sh
+python download_irevnet_pretrained.py
+```
+Then, run the script to convert the Yahoo dataset to standard format
+```
+python yahoo_to_zsl.py
+
+```
 
 We provide the optimal parameter values for the model for each dataset:
 -----------------------------------------------------------------------
